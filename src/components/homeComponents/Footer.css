@@ -1,0 +1,23 @@
+  .footer {
+    text-align: center;
+    background-color: #A89595;
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    margin-bottom: -16px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 16px;
+  }
+  @media (max-width: 768px) 
+  {
+    .footer {
+      text-align: center;
+      background-color: #A89595;
+      width: 100%;
+      padding: 10px 10px;
+    }
+  }
+
+  
+  

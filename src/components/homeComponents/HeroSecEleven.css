@@ -1,0 +1,46 @@
+.ContentEleven{
+    display: flex;
+}
+.ContentEleven p{
+    width: 700px;
+    font-size: 30px;
+    margin-left: 80px;
+
+}
+.Elevenrightimage{
+    width: auto;
+    height: 400px;
+    margin-left: 40px;
+}
+.hero-sec-eleven{
+    margin-bottom: 200px;
+}
+.buttoncontainereleven{
+    margin-top: -200px;
+    margin-left: 100px;
+}
+
+@media (max-width: 768px) {
+    .ContentEleven {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-evenly;
+        align-content: stretch;
+        flex-wrap: wrap;
+    }
+    .Elevenrightimage{
+       height: 300px;
+       margin-left: 0px;
+    }
+    .buttoncontainereleven{
+        padding-top: 250px;
+        margin-left: 90px;
+    }
+    .ContentEleven p{
+        width: 700px;
+        font-size: 30px;
+        justify-content:center;
+        
+    
+    }
+  }

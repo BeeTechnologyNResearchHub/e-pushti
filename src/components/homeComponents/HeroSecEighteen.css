@@ -1,0 +1,110 @@
+.map-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+  background-color: transparent;
+  margin-left: 150px;
+}
+
+.map-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.map-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.division-list {
+  flex: 1;
+  padding: 20px;
+}
+
+.division-item {
+  margin-bottom: 10px;
+}
+
+.division-box {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Add unique border color to each division box */
+.division-color-0 {
+  border: 3px solid #229DA2; /* Example border color for division 0 */
+  margin-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.division-color-1 {
+  border: 3px solid #E7D21D; /* Example border color for division 1 */
+  margin-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.division-color-2 {
+  border: 3px solid #E0CF1F; /* Example border color for division 0 */
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 33px;
+}
+.division-color-3 {
+  border: 3px solid #FF3366; /* Example border color for division 0 */
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 40px;
+}
+.division-color-4 {
+  border: 3px solid #E4A231; /* Example border color for division 0 */
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 45px;
+}
+.division-color-5 {
+  border: 3px solid #E6A332; /* Example border color for division 0 */
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 50px;
+}
+.division-color-6 {
+  border: 3px solid #CC6699; /* Example border color for division 0 */
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 30px;
+}
+
+.division-name-box,
+.registration-count-box {
+  padding: 5px;
+  border: 1px solid #ad892c; /* Border for separate boxes */
+  margin: 5px; /* Margin between the boxes */
+}
+
+.division-name {
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.registration-count {
+  font-weight: 900;
+}
+@media (max-width: 768px) {
+  .map-section {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    background-color: transparent;
+    margin-left: 0px;
+  }
+  .division-list {
+    flex: 1;
+    padding: 52px;
+  }
+  
+}

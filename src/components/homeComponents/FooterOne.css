@@ -1,0 +1,146 @@
+.FooterOne{
+    background-color: #FF8500;
+    width: 100%;
+    padding-bottom: 50px;
+    margin-left: -4px;
+}
+.content h2{
+    color:white;
+    text-align: center;
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content p{
+    color:white;
+    text-align: center;
+    margin-top: -10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.subscribe-bar {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    margin-top: -10px; /* Adjust margin for spacing */
+    padding: 15px; /* Add some padding */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: none;
+   
+  }
+
+
+  .subscribe-bar .input-group {
+    display: flex;
+    flex: 1; /* Expand to fill available space */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 4px; /* Add rounded corners to input group */
+    overflow: hidden; /* Hide overflow content */
+  }
+
+  .subscribe-input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .subscribe-button button {
+    background-color: #007bff; /* Change button background color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+
+  .subscribe-button button:hover {
+    background-color: #0056b3; /* Change button color on hover */
+  }
+  .contentBelow{
+    color: white;
+    font-size: 23px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-left: -20px;
+
+  }
+  .middle{
+    margin-left: 100px;
+  }
+  .Icon-below-content {
+    display: flex;
+    justify-content: center;
+    margin-left: -100px;
+    margin-top: 15px;
+  }
+  
+  .social-icon {
+    font-size: 24px; /* Adjust the size as needed */
+    margin: 0 10px; /* Add margin between icons */
+    color: #fff; /* Default text color */
+    border-radius: 50%; /* Make the icon circular */
+    padding: 10px; /* Add padding for better spacing */
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  /* Facebook */
+  .facebook {
+    background-color: #1877f2; /* Facebook brand color */
+  }
+  
+  /* Instagram */
+  .instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  }
+  
+  /* Twitter */
+  .twitter {
+    background-color: #1da1f2; /* Twitter brand color */
+  }
+  
+  /* Pinterest */
+  .pinterest {
+    background-color: #bd081c; /* Pinterest brand color */
+  }
+  
+  /* LinkedIn */
+  .linkedin {
+    background-color: #0a66c2; /* LinkedIn brand color */
+  }
+  
+  .social-icon:hover {
+    color: #fff; /* Change text color on hover */
+  }
+  .contents{
+    color: white;
+    margin-left: 0px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .contents h5{
+    margin-top: -17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .Plogo{
+    height: 30px;
+    padding-right: 30px;
+  }
+  .contents h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .FooterOne{
+      width: auto;
+      margin-top: -1px;
+      padding-right: 25px;
+  }
+  
+    .subscribe-bar {
+      width: fit-content;
+      margin-left: 15px;
+      }
+      .Plogo{
+        height:20px;
+        margin-left: 40px;
+      }
+  }
